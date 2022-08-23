@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div>
-			<h2>Home Page</h2>
+		<div className="main">
+			<h3>Home Page</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
 				neque velit, lobortis ut magna varius, blandit rhoncus sem.

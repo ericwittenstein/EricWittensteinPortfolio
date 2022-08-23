@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Projects() {
 	return (
-		<div>
-			<h2>Projects</h2>
+		<div className="main">
+			<h3>Projects</h3>
 			<p>
 				Donec a volutpat quam. Curabitur nec varius justo, sed rutrum
 				ligula. Curabitur pellentesque turpis sit amet eros iaculis, a

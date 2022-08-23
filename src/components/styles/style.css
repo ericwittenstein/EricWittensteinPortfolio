@@ -1,7 +1,39 @@
+* {
+	font-family: "Fira Code", monospace;
+    --CarolinaBlue: #7BAFD4;
+    --NavyBlue: #13294B;
+    --BackgroundBlue: #0072bb;
+    background-color: var(--BackgroundBlue);
+    color: white;
+}
+
+.navbar {
+    margin: 1%;
+}
+
+.main {
+	margin: 1%;
+}
+
+.main h3 {
+    color: var(--NavyBlue);
+}
+
 .navbar-brand {
-    font-size: xx-large;
+	font-size: xx-large;
+    color: white;
 }
 
 .nav-item {
-    font-size: x-large;
+	font-size: x-large;
+}
+
+.nav-link {
+    color: white;
+    font-weight: normal;
+}
+
+.nav-link.active {
+    color: var(--NavyBlue);
+    font-weight: bold
 }

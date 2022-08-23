@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Contact() {
 	return (
-		<div>
-			<h2>Contact Info</h2>
+		<div className="main">
+			<h3>Contact Info</h3>
 			<p>
 				Integer cursus bibendum sem non pretium. Vestibulum in aliquet
 				sem, quis molestie urna. Aliquam semper ultrices varius. Aliquam
