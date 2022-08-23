@@ -64,6 +64,7 @@ npm test
 ## Contributing
 
 Not accepting contributions at this time
+
 ## Questions and Contact Info
 
 If you have any questions about the repo, please open an issue on GitHub or contact me directly at [eric.wittenstein@gmail.com](mailto:eric.wittenstein@gmail.com).
