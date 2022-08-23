@@ -13,10 +13,10 @@ This is a portfolio of my work on coding projects that I am proud of, and would 
 
 * [License](#license)
 
-* [Contributing](#contributing)
-
 * [Testing](#testing)
-
+  
+* [Contributing](#contributing)
+  
 * [Questions](#questions)
 
 ## Installation
@@ -53,10 +53,6 @@ https://github.com/ericwittenstein/EricWittensteinPortfolio
 
     **_ THIS IS A PLACEHOLDER FOR AN IMAGE OR SCREEN RECORDING OF THE PROJECT _**
 
-## Contributing
-
-Not accepting contributions at this time
-
 ## Testing
 
 To initiate the unit tests for this project, run the following command in the console/command line: 
@@ -65,6 +61,9 @@ To initiate the unit tests for this project, run the following command in the co
 npm test
 ```
 
+## Contributing
+
+Not accepting contributions at this time
 ## Questions and Contact Info
 
 If you have any questions about the repo, please open an issue on GitHub or contact me directly at [eric.wittenstein@gmail.com](mailto:eric.wittenstein@gmail.com).
