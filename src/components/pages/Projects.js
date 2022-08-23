@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Blog() {
+export default function Projects() {
 	return (
 		<div>
-			<h1>Blog Page</h1>
+			<h2>Projects</h2>
 			<p>
 				Donec a volutpat quam. Curabitur nec varius justo, sed rutrum
 				ligula. Curabitur pellentesque turpis sit amet eros iaculis, a
