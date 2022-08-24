@@ -1,27 +1,32 @@
 * {
 	font-family: "Fira Code", monospace;
-    --CarolinaBlue: #7BAFD4;
-    --NavyBlue: #13294B;
-    --BackgroundBlue: #0072bb;
-    background-color: var(--BackgroundBlue);
-    color: white;
+	--carolina-blue2: #00070c;
+	--carolina-blue: #4b9cd3ff;
+	--dark-slate-gray: #2a4747ff;
+	--gunmetal: #022b3aff;
+	color: white;
+}
+
+body {
+	background-image: url(../../../public/techbanner3a.jpg);
 }
 
 .navbar {
-    margin: 1%;
+	padding: 1%;
 }
 
 .main {
-	margin: 1%;
+	padding: 1%;
+	background-color: var(--carolina-blue);
 }
 
 .main h3 {
-    color: var(--NavyBlue);
+	color: var(--carolina-blue2);
 }
 
 .navbar-brand {
 	font-size: xx-large;
-    color: white;
+	color: white;
 }
 
 .nav-item {
@@ -29,11 +34,11 @@
 }
 
 .nav-link {
-    color: white;
-    font-weight: normal;
+	color: white;
+	font-weight: normal;
 }
 
 .nav-link.active {
-    color: var(--NavyBlue);
-    font-weight: bold
+	color: var(--carolina-blue2);
+	font-weight: bold;
 }
