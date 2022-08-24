@@ -42,3 +42,13 @@ body {
 	color: var(--carolina-blue2);
 	font-weight: bold;
 }
+
+footer {
+	padding: 1%;
+	text-align: center;
+}
+
+.icon {
+	padding: 1px;
+	margin: 2px;
+}

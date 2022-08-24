@@ -26,21 +26,6 @@ function NavTabs({ currentPage, handlePageChange }) {
 					<ul className="navbar-nav me-auto w-100 justify-content-end">
 						<li className="nav-item">
 							<a
-								href="#home"
-								onClick={() => handlePageChange("Home")}
-								// conditional / ternary operator to check if current page is the home page
-								// if yes, set to nav link active, otherwise, regular nav link
-								className={
-									currentPage === "Home"
-										? "nav-link active"
-										: "nav-link"
-								}
-							>
-								Home
-							</a>
-						</li>
-						<li className="nav-item">
-							<a
 								href="#about"
 								onClick={() => handlePageChange("About")}
 								// if current page is the about page, set to nav link active, otherwise normal
@@ -79,6 +64,21 @@ function NavTabs({ currentPage, handlePageChange }) {
 								}
 							>
 								Contact
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								href="#resume"
+								onClick={() => handlePageChange("Resume")}
+								// conditional / ternary operator to check if current page is the resume page
+								// if yes, set to nav link active, otherwise, regular nav link
+								className={
+									currentPage === "Resume"
+										? "nav-link active"
+										: "nav-link"
+								}
+							>
+								Resume
 							</a>
 						</li>
 					</ul>

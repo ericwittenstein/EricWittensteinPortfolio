@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
+import Home from "./pages/Resume";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Footer from "./Footer";
 
 export default function PortfolioContainer() {
 	const [currentPage, setCurrentPage] = useState("Home");
@@ -33,6 +34,7 @@ export default function PortfolioContainer() {
 			/>
 			{/* calling the renderPage method which will return a component */}
 			{renderPage()}
+			<Footer />
 		</div>
 	);
 }

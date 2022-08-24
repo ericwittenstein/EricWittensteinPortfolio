@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Home() {
+export default function Resume() {
 	return (
 		<div className="main">
-			<h3>Home Page</h3>
+			<h3>Resume</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
 				neque velit, lobortis ut magna varius, blandit rhoncus sem.
