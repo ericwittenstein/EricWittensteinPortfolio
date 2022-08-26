@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 	return (
 		<nav className="navbar navbar-expand-md justify-content-center">
 			<div className="container-fluid">
-				<a className="navbar-brand d-flex" href="#home">
+				<a className="navbar-brand d-flex" href="#about">
 					Eric Wittenstein
 				</a>
 				<button

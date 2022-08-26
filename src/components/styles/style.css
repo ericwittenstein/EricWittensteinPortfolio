@@ -52,3 +52,11 @@ footer {
 	padding: 1px;
 	margin: 2px;
 }
+
+.contact {
+	padding: auto 3%;
+}
+
+.formSubmit {
+	background-color: var(--carolina-blue2);
+}

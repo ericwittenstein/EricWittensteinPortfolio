@@ -1,24 +1,59 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 export default function Contact() {
 	return (
 		<div className="main">
-			<h3>Contact Info</h3>
-			<p>
-				Integer cursus bibendum sem non pretium. Vestibulum in aliquet
-				sem, quis molestie urna. Aliquam semper ultrices varius. Aliquam
-				faucibus sit amet magna a ultrices. Aenean pellentesque placerat
-				lacus imperdiet efficitur. In felis nisl, luctus non ante
-				euismod, tincidunt bibendum mi. In a molestie nisl, eu sodales
-				diam. Nam tincidunt lacus quis magna posuere, eget tristique dui
-				dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-				metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla
-				facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh dictum
-				ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-				conubia nostra, per inceptos himenaeos. Etiam ornare rutrum
-				felis at rhoncus. Etiam vel condimentum magna, quis tempor
-				nulla.
-			</p>
+			<h3>Contact Me</h3>
+			<div className="contact">
+				<Form>
+					<Form.Label>Your Name: </Form.Label>
+					<Row>
+						<Col>
+							<Form.Group
+								className="mb-3"
+								controlId="formFirstName"
+							>
+								<Form.Control
+									type="text"
+									placeholder="First Name"
+									aria-label="First Name Field"
+								/>
+							</Form.Group>
+						</Col>
+						<Col>
+							<Form.Group
+								className="mb-3"
+								controlId="formLastName"
+							>
+								<Form.Control
+									type="text"
+									placeholder="Last Name"
+									aria-label="Last Name Field"
+								/>
+							</Form.Group>
+						</Col>
+					</Row>
+					<Form.Group className="mb-3" controlId="formEmail">
+						<Form.Label>Your Email: </Form.Label>
+						<Form.Control
+							type="email"
+							placeholder="YourEmail@domain.com"
+							aria-label="Email Field"
+						/>
+					</Form.Group>
+					<Form.Group className="mb-3" controlId="formText">
+						<Form.Label>Your Message: </Form.Label>
+						<Form.Control as="textarea" rows={3} />
+					</Form.Group>
+					<Button className="formSubmit" type="submit">
+						Submit
+					</Button>
+				</Form>
+			</div>
 		</div>
 	);
 }
