@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.5890b1ef.css",
-    "main.js": "/MyPortfolio/static/js/main.67254f70.js",
+    "main.css": "/MyPortfolio/static/css/main.ce93148e.css",
+    "main.js": "/MyPortfolio/static/js/main.99451884.js",
     "static/media/techbanner3a.jpg": "/MyPortfolio/static/media/techbanner3a.421da3ab09d6ad3ec3fc.jpg",
     "static/media/githubicontr.png": "/MyPortfolio/static/media/githubicontr.34caa156406e74ab7e66.png",
-    "static/media/Eric Wittenstein Resume.pdf": "/MyPortfolio/static/media/Eric Wittenstein Resume.0af9e9be18e77e1c5f9a.pdf",
+    "static/media/EricWittensteinResume.pdf": "/MyPortfolio/static/media/EricWittensteinResume.0af9e9be18e77e1c5f9a.pdf",
     "index.html": "/MyPortfolio/index.html",
-    "main.5890b1ef.css.map": "/MyPortfolio/static/css/main.5890b1ef.css.map",
-    "main.67254f70.js.map": "/MyPortfolio/static/js/main.67254f70.js.map"
+    "main.ce93148e.css.map": "/MyPortfolio/static/css/main.ce93148e.css.map",
+    "main.99451884.js.map": "/MyPortfolio/static/js/main.99451884.js.map"
   },
   "entrypoints": [
-    "static/css/main.5890b1ef.css",
-    "static/js/main.67254f70.js"
+    "static/css/main.ce93148e.css",
+    "static/js/main.99451884.js"
   ]
 }
