@@ -9,7 +9,10 @@ export default function Contact() {
 		<div className="main">
 			<h3>Contact Me</h3>
 			<div className="contact">
-				<Form>
+				<Form
+					action="https://formsubmit.co/eric.wittenstein@gmail.com"
+					method="POST"
+				>
 					<Form.Label>Your Name: </Form.Label>
 					<Row>
 						<Col>
@@ -19,8 +22,10 @@ export default function Contact() {
 							>
 								<Form.Control
 									type="text"
+									name="firstName"
 									placeholder="First Name"
 									aria-label="First Name Field"
+									required
 								/>
 							</Form.Group>
 						</Col>
@@ -31,8 +36,10 @@ export default function Contact() {
 							>
 								<Form.Control
 									type="text"
+									name="lastName"
 									placeholder="Last Name"
 									aria-label="Last Name Field"
+									required
 								/>
 							</Form.Group>
 						</Col>
@@ -41,13 +48,21 @@ export default function Contact() {
 						<Form.Label>Your Email: </Form.Label>
 						<Form.Control
 							type="email"
+							name="email"
 							placeholder="YourEmail@domain.com"
 							aria-label="Email Field"
+							required
 						/>
 					</Form.Group>
 					<Form.Group className="mb-3" controlId="formText">
 						<Form.Label>Your Message: </Form.Label>
-						<Form.Control as="textarea" rows={3} />
+						<Form.Control
+							as="textarea"
+							rows={3}
+							type="text"
+							name="message"
+							required
+						/>
 					</Form.Group>
 					<Button className="formSubmit" type="submit">
 						Submit
