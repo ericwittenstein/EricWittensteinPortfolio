@@ -1,13 +1,11 @@
 import React from "react";
 
-import EricWittensteinResume from "../images/EricWittensteinResume.pdf";
-
 export default function Resume() {
 	return (
 		<div className="main">
 			<h3>Resume</h3>
 			<div className="resumeLinkContainer">
-				<div className="resumeLink">Click here to view/download my resume!</div>
+				<a href="https://ericwittenstein.github.io/MyPortfolio/EricWittensteinResume.pdf" rel="noreferrer noopener" target="_blank" className="resumeLink" download>Click here to download my resume!</a>
 			</div>
 		</div>
 	);

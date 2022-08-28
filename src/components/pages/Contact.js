@@ -10,7 +10,7 @@ export default function Contact() {
 			<h3>Contact Me</h3>
 			<div className="contact">
 				<Form
-					action="https://formsubmit.co/eric.wittenstein@gmail.com"
+					action="aae0df185b077ddb32f278ce006b97bc"
 					method="POST"
 				>
 					<Form.Label>Your Name: </Form.Label>
