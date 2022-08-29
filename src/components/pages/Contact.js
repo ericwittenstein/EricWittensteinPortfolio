@@ -1,5 +1,8 @@
 import React from "react";
-import { Form, Col, Row, Button } from "react-bootstrap/";
+import Form from "react-bootstrap/Form";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 
 export default function Contact() {
 	return (
