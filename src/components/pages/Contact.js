@@ -1,18 +1,12 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import { Form, Col, Row, Button } from "react-bootstrap/";
 
 export default function Contact() {
 	return (
 		<div className="main">
 			<h3>Contact Me</h3>
 			<div className="contact">
-				<Form
-					action="aae0df185b077ddb32f278ce006b97bc"
-					method="POST"
-				>
+				<Form action="aae0df185b077ddb32f278ce006b97bc" method="POST">
 					<Form.Label>Your Name: </Form.Label>
 					<Row>
 						<Col>

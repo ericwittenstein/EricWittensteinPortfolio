@@ -61,25 +61,13 @@ footer {
 	background-color: var(--carolina-blue2);
 }
 
-.PDF-window {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	overflow: hidden;
-}
-
-.PDF-button {
-	border: 0;
+.resumeLinkContainer {
 	display: block;
-	width: 100%;
-	background: rgb(97, 139, 224);
-	color: white;
-	font-size: 1.2em;
-	padding: 0.5em;
+	text-align: center;
 }
 
-.PDF-viewer {
-	position: relative;
-	flex: 1;
+.resumeLink {
+	text-decoration: underline;
+	color: white;
+	font-size: x-large;
 }

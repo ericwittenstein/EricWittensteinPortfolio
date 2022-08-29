@@ -2,12 +2,14 @@ import React from "react";
 import GitHubImage from "../components/images/githubicontr.png";
 import LinkedInImage from "../components/images/linkedin.png";
 import EmailImage from "../components/images/emailicon.png";
+import logoIcon from "../components/images/makercoinV3.png"
 
 function Footer() {
 	return (
 		<footer>
 			<div>
-				Eric H. Wittenstein, 2022{" "}
+			<img alt="logo" src={logoIcon} height="25" width="25" className="navbar-icon"></img>
+				{" "}Eric H. Wittenstein, 2022{" "}
 				<a
 					href="https://github.com/ericwittenstein/"
 					rel="noreferrer"
