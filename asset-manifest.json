@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.1b9cf36d.css",
-    "main.js": "/MyPortfolio/static/js/main.b60dddbe.js",
+    "main.css": "/MyPortfolio/static/css/main.b2c9dccc.css",
+    "main.js": "/MyPortfolio/static/js/main.efb7f091.js",
     "static/media/techbanner3a.jpg": "/MyPortfolio/static/media/techbanner3a.421da3ab09d6ad3ec3fc.jpg",
+    "static/media/inventory.png": "/MyPortfolio/static/media/inventory.9bdb55d993c8a2030bb7.png",
+    "static/media/stayintouch.png": "/MyPortfolio/static/media/stayintouch.4f2041b48ac745b06d25.png",
     "static/media/githubicontr.png": "/MyPortfolio/static/media/githubicontr.34caa156406e74ab7e66.png",
     "static/media/makercoinV3.png": "/MyPortfolio/static/media/makercoinV3.739f062993eee91c5052.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.1b9cf36d.css.map": "/MyPortfolio/static/css/main.1b9cf36d.css.map",
-    "main.b60dddbe.js.map": "/MyPortfolio/static/js/main.b60dddbe.js.map"
+    "main.b2c9dccc.css.map": "/MyPortfolio/static/css/main.b2c9dccc.css.map",
+    "main.efb7f091.js.map": "/MyPortfolio/static/js/main.efb7f091.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b9cf36d.css",
-    "static/js/main.b60dddbe.js"
+    "static/css/main.b2c9dccc.css",
+    "static/js/main.efb7f091.js"
   ]
 }
