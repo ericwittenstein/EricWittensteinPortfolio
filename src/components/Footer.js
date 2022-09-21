@@ -1,15 +1,15 @@
 import React from "react";
-import GitHubImage from "../components/images/githubicontr.png";
-import LinkedInImage from "../components/images/linkedin.png";
-import EmailImage from "../components/images/emailicon.png";
-import logoIcon from "../components/images/makercoinV3.png"
+import GitHubImage from "../components/assets/githubicontr.png";
+import LinkedInImage from "../components/assets/linkedin.png";
+import EmailImage from "../components/assets/emailicon.png";
+import logoIcon from "../components/assets/makercoinV3.png"
 
 function Footer() {
 	return (
 		<footer>
 			<div>
 			<img alt="logo" src={logoIcon} height="25" width="25" className="navbar-icon"></img>
-				{" "}Eric H. Wittenstein, 2022{" "}
+				{" "}<span>Eric H. Wittenstein, 2022</span>{" "}
 				<a
 					href="https://github.com/ericwittenstein/"
 					rel="noreferrer"
