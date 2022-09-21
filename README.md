@@ -49,13 +49,13 @@ https://github.com/ericwittenstein/EricWittensteinPortfolio
 
 ## Deployed Application
 
-![home about page](./public/home.gif)
+![home about page](./src/components/assets/home.gif)
 
-![projects](./public/projects.gif)
+![projects](./src/components/assets/projects.gif)
 
-![contact](./public/contact.gif)
+![contact](./src/components/assets/contact.gif)
 
-![resume](./public/resume.gif)
+![resume](./src/components/assets/resume.gif)
 
 ## Contributing
 
