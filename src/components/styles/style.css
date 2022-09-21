@@ -1,6 +1,6 @@
 * {
 	font-family: "Fira Code", monospace;
-	--carolina-blue2: #00070c;
+	--carolina-blue2: #13294b;
 	--carolina-blue: #4b9cd3ff;
 	--dark-slate-gray: #2a4747ff;
 	--gunmetal: #022b3aff;
@@ -9,6 +9,7 @@
 
 body {
 	background-image: url(../../components/assets/techbanner3a.jpg);
+	background-size: cover;
 }
 
 .navbar {
@@ -16,10 +17,8 @@ body {
 }
 
 .main {
-	padding: 1%;
+	padding: 2%;
 	background-color: var(--carolina-blue);
-	max-width: 90%;
-	margin: 0 auto;
 }
 
 .main h3 {
@@ -76,64 +75,44 @@ footer {
 
 .project {
 	position: relative;
-	width: 100%;
-	height: 300px;
 	margin: 1%;
-	max-width: 500px;
+	text-align: center;
+}
+
+.project:hover .project-bg {
+	opacity: 0.3;
+}
+
+.project:hover .project-text {
+	opacity: 1;
 }
 
 .project-bg {
-	position: relative;
 	width: 100%;
-	height: 100%;
+	opacity: 1;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .project-text {
-	color: var(--secondary);
 	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	padding: 50px;
-	z-index: 900;
+	padding: 1%;
+	width: 95%;
+	transition: 0.5s ease;
 	opacity: 0;
-	transition: all 0.5s ease-in-out;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: var(--carolina-blue2);
+	border-radius: 15px;
 }
 
-.project-text:hover {
-	background-color: var(--alpha);
-	opacity: 1;
-	border: 10px solid var(--secondary);
+.project-text a {
+	text-decoration: underline;
+	color: white;
+	font-size: larger;
 }
-
-/* @media only screen and (max-width: 1300px) {
-	nav {
-		position: static;
-		display: block;
-		z-index: 100;
-		margin: 0 10px;
-		font-size: 2rem;
-	}
-	header h1 {
-		display: block;
-		height: 30px;
-	}
-}
-@media only screen and (max-width: 900px) {
-	nav {
-		position: static;
-		display: block;
-		z-index: 100;
-		margin: 0 10px;
-		font-size: 1.3rem;
-	}
-	header h1 {
-		display: block;
-		margin: 5px 10px;
-		height: 15px;
-		width: 100%;
-		text-align: center;
-		font-size: 2.3rem;
-	}
-} */
