@@ -13,8 +13,6 @@ This is a portfolio of my work on coding projects that I am proud of, and would 
 
 * [License](#license)
 
-* [Testing](#testing)
-  
 * [Contributing](#contributing)
   
 * [Questions](#questions)
@@ -51,15 +49,13 @@ https://github.com/ericwittenstein/EricWittensteinPortfolio
 
 ## Deployed Application
 
-    **_ THIS IS A PLACEHOLDER FOR AN IMAGE OR SCREEN RECORDING OF THE PROJECT _**
+![home about page](./public/home.gif)
 
-## Testing
+![projects](./public/projects.gif)
 
-To initiate the unit tests for this project, run the following command in the console/command line: 
+![contact](./public/contact.gif)
 
-```
-npm test
-```
+![resume](./public/resume.gif)
 
 ## Contributing
 

@@ -47,6 +47,12 @@ body {
 footer {
 	padding: 1%;
 	text-align: center;
+	background-color: rgb(255, 255, 255, .5);
+}
+
+footer span {
+	color: var(--carolina-blue2);
+	font-weight: 600;
 }
 
 .icon {
