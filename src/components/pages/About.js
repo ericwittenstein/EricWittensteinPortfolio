@@ -6,9 +6,9 @@ export default function About() {
 			<h3>About Me</h3>
 			<p>
 				Hi there, and welcome to my portfolio page! My name is Eric
-				Wittenstein, and I'm a Full Stack Web Developer. I'm a recent
-				graduate of the Georgia Tech Coding Bootcamp with a Full Stack
-				Web Development Certificate, and will be using this webpage to
+				Wittenstein, and I'm a Full Stack Web Developer. I'm a graduate
+				of the Georgia Tech Coding Bootcamp with a Full Stack Web
+				Development Certificate, and will be using this webpage to
 				showcase my completed projects and demonstrate my skills as a
 				developer.
 			</p>
@@ -28,7 +28,29 @@ export default function About() {
 						</div>
 						<div className="col">
 							<img
-								alt="javascript logo"
+								alt="java logo"
+								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"
+								height="25"
+								width="25"
+								className="navbar-icon"
+							></img>{" "}
+							Java
+						</div>
+						<div className="col">
+							<img
+								alt="typescript logo"
+								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+								height="25"
+								width="25"
+								className="navbar-icon"
+							></img>{" "}
+							TypeScript
+						</div>
+					</div>
+					<div className="row">
+						<div className="col">
+							<img
+								alt="html5 logo"
 								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
 								height="25"
 								width="25"
@@ -38,7 +60,7 @@ export default function About() {
 						</div>
 						<div className="col">
 							<img
-								alt="javascript logo"
+								alt="css3 logo"
 								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
 								height="25"
 								width="25"
@@ -46,11 +68,9 @@ export default function About() {
 							></img>{" "}
 							CSS3
 						</div>
-					</div>
-					<div className="row">
 						<div className="col">
 							<img
-								alt="javascript logo"
+								alt="react logo"
 								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
 								height="25"
 								width="25"
@@ -58,19 +78,11 @@ export default function About() {
 							></img>{" "}
 							React.js
 						</div>
+					</div>
+					<div className="row">
 						<div className="col">
 							<img
-								alt="javascript logo"
-								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg"
-								height="25"
-								width="25"
-								className="navbar-icon"
-							></img>{" "}
-							jQuery
-						</div>
-						<div className="col">
-							<img
-								alt="javascript logo"
+								alt="express logo"
 								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
 								height="25"
 								width="25"
@@ -78,21 +90,9 @@ export default function About() {
 							></img>{" "}
 							Express.js
 						</div>
-					</div>
-					<div className="row">
 						<div className="col">
 							<img
-								alt="javascript logo"
-								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg"
-								height="25"
-								width="25"
-								className="navbar-icon"
-							></img>{" "}
-							GraphQL
-						</div>
-						<div className="col">
-							<img
-								alt="javascript logo"
+								alt="mongodb logo"
 								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
 								height="25"
 								width="25"
@@ -102,7 +102,7 @@ export default function About() {
 						</div>
 						<div className="col">
 							<img
-								alt="javascript logo"
+								alt="mysql logo"
 								src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
 								height="25"
 								width="25"
